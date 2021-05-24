@@ -1,0 +1,185 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  margin: 0;
+  background-color: #EEEEEE;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+input{
+  width:340px;
+  min-height: 52px;
+  padding-left: 1rem;
+  border-radius: 6px;
+  border: 1px solid #EEEEEE;
+}
+
+a{
+  text-decoration: none;
+  color: #545454;
+  align-self: flex-end;
+}
+
+button{
+  align-self: flex-end;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  border: 1px solid #FE0078;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 0.5rem;
+  
+}
+
+.card{
+  border: 2px solid #EEEEEE;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+.meio{
+  display: flex;
+  flex-grow: 1;
+  background-color: #EEEEEE;
+  margin: 1.5rem 4rem;
+}
+
+.conteudo, .post{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+
+.dir{
+  height: max-content;
+}
+
+.dir h1{
+  border-left-style: solid;
+  border-color: #FE0078;
+  font-size: 18px;
+  color:black;
+  padding: 0.5rem;
+}
+
+.card{
+  margin: 1rem;
+}
+
+.post h1, .post h2, .post p, .dir, .contato{
+  padding: 0.5rem 1rem;
+}
+.post h1{
+  font-size: 24px;
+  font-weight: bold;
+  color:black;
+}
+.post h2{
+  font-size: 12px;
+  color: #929292;
+  font-weight: normal;
+}
+.post h1, .post h2{
+  margin: 0;
+}
+.post p, input, .categ, .links{
+  color: #545454;
+  font-size: 14px;
+}
+
+.categ{
+  display: flex;
+  border-bottom-style: dotted;
+  border-color: #EEEEEE;  
+  padding: 1rem 0.5rem;
+}
+.categ p{
+  margin: 0px;
+  margin-left: auto;
+}
+
+.anuncio{
+  background-color: #EEEEEE;
+  height: 240px;
+  width: 340px;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+button:hover{
+  cursor: pointer;
+  background-color: #FE0078;
+  color: #EEEEEE;
+} 
+
+.categ:hover, .links a:hover{
+  cursor: pointer;
+  color: #FE0078;
+}
+.categ:hover{
+  border-color: #FE0078;
+}
+
+input:hover, textarea:hover{
+  cursor:pointer;
+  border: 2px solid #FE0078;
+}
+
+/*Parte do css pro Contato*/
+.linh{
+  display: flex;
+  flex-direction: row;
+  
+}
+.contato{
+  height: max-content;
+}
+.infor p{
+  margin: 0;
+}
+
+.infor h3{
+  margin-left: 0.5rem;
+}
+
+/*Continuar lendo*/
+.lendo p{
+  color:black;
+}
+
+.coment{
+  background-color: #EEEEEE;
+}
+
+.form{
+  display:flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0.5rem 0.1rem;
+}
+
+
+.identificacao{
+  display: flex;
+  flex-direction: row;
+}
+
+#enviar{
+  background-color: #FE0078;
+  color: #FFFFFF;
+  align-self: flex-end;
+  margin-top: 1.5rem;
+}
+
+
+
+

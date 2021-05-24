@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    align-items: center;
+    border: 2px solid #EEEEEE;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    
+}
+.header img{
+    margin: 0px 4rem;
+
+}
+
+.links{
+    display: flex;
+    gap: 2rem;
+    margin-left: auto;
+    margin-right: 5rem;
+}
